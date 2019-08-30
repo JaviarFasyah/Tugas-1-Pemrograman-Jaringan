@@ -9,8 +9,8 @@
 **Jawaban Soal. No. 2:**  
   Program pertama adalah tentang berbagai macam sintaks iterasi dalam bahasa Go, output yang dihasilkan adalah “1, 2, 3; 7, 8, 9; loop; 1, 3, 5”. Pada iterasi pertama, variabel di-assign nilai diluar sintaks iterasi, iterasi dilakukan hingga batas yang ditentukan dengan mencetak nilai variabel saat iterasi lalu menambah nilai variabelnya hingga memenuhi batas iterasi. Pada iterasi kedua, nilai iterasi di-assign dalam sintaks beserta penambahan nilai variabelnya, iterasi dilakukan hingga batas yang ditentukan sembari mencetak nilai variabel.  
   Pada iterasi ketiga, terdapat sintaks break yang akan menyudahi iterasi sesuai keinginan (dalam kasus ini setelah mencetak string “loop”). Pada iterasi terakhir, iterasi dilakukan mirip dengan pada iterasi kedua, namun dalam pencetakan nilai variabel terdapat sebuah kondisi dimana jika nilai variabel di-mod 2 sama dengan 0 (bilangan genap), maka pencetakan nilai variabel dilewati (dengan sintaks continue).  
-![2a_0.png](/screenshot/2a_0.png)
-`<addr>` ![2a_1.png](/screenshot/2a_1.png)  
+![2a_0.png](/screenshot/2a_0.png)  
+![2a_1.png](/screenshot/2a_1.png)  
 
   Program kedua adalah tentang penulisan sintaks kondisi pada bahasa Go, output yang dihasilkan adalah “7 is odd; 8 is divisible by 4; 9 has 1 digit”. Pada kondisi pertama, terdapat pengecekan nilai 7 dengan di-mod 2, jika hasilnya 0 maka dicetaklah “7 is even”, jika tidak maka dicetak “7 is odd”. Pada kondisi kedua, terdapat kondisi mirip dengan kondisi pertama (jika 8 di-mod 4 adalah 0, maka dicetak “8 is divisible by 4”), namun jika seandainya 8 di-mod 4 bukan 0, maka program tidak akan mencetak apapun. Pada kondisi terakhir, nilai variabel di-assign didalam sintaks kondisi untuk kemudian dibandingkan, jika variabel kurang dari 0 maka dicetak “is negative”, jika variabel kurang dari 10 maka dicetak “has 1 digit”, dan jika bukan kedua-duanya maka dicetak “has multiple digits”.  
 ![2b.png](/screenshot/2b.png)  
